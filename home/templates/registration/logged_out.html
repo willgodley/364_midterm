@@ -1,0 +1,10 @@
+{% extends "main_home.html" %}
+
+<head>
+    <meta name="wa4e" content="e2c0be24560d78c5e599c2a9c9d0bbd2">
+</head>
+
+{% block content %}
+  <p>Logged out!</p>
+  <a href="{% url 'login'%}">Click here to login again.</a>
+{% endblock %}
